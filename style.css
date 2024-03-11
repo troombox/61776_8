@@ -1,0 +1,16 @@
+.thumbnail {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  margin: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.thumbnail:hover {
+  transform: scale(1.1);
+}
+
+.selected-image {
+  max-width: 100%;
+  height: auto;
+}
